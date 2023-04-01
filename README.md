@@ -170,6 +170,31 @@ Inter-trial coherence (ITC) is a measure that is computed from single trial EEG,
 which reflects the temporal and spectral synchronization within EEG. It is a
 measure of how consistent oscillatory phase is across an ensemble of trials.
 
+# SOURCE ESTIMATION
+First, the necessary libraries are imported such as matplotlib, pathlib, mne_bids, and mne. These libraries are used for data manipulation, analysis, and visualization.
+
+The bids_root directory path is specified where the raw data is stored in BIDS format. The BIDSPath function from mne_bids is used to define the specific path to the raw data file for subject 01, session 01, task audiovisual, run 01, and datatype meg.
+
+The raw data is read using the read_raw_bids function and then filtered between the frequency range of 0.1 and 40 Hz.
+
+The events are extracted from the raw data using the events_from_annotations function and specified time windows.
+
+The epochs are then created by using the Epochs function, which segments the raw data into epochs using the event markers defined in step 4.
+
+The epochs are then saved to a file, and information about the data is displayed using the info function.
+
+The BEM model for the subject's brain is plotted using the plot_bem function from mne.viz.
+
+The forward solution for the MEG data is read using the read_forward_solution function from mne.forward. The forward solution is then restricted to only MEG data using the pick_types_forward function.
+
+Next, an inverse operator is created using the make_inverse_operator function from mne.minimum_norm, and then the inverse operator is saved using the write_inverse_operator function.
+
+The apply_inverse function is used to calculate the source estimation using the dSPM method for the 'Auditory/Left' condition of the epochs. The lambda2 value is calculated based on the snr value, which is set to 3.
+
+Finally, the source estimation is plotted using the plot function of the stc object, which was generated from the apply_inverse function.
+
+In summary, this Jupyter Notebook code uses the MNE Python package for processing and analyzing MEG data. It reads the raw data from a BIDS formatted file, creates epochs, and applies an inverse operator to calculate the source estimation of the MEG data. It also provides a visualization of the source estimation on the subject's brain surface.
+
 # CONCLUSIONS:
 1. Obtained Power Spectrum of EEG Signals using different types of analysis.
 2. Filtered Raw Signal using FIR-BPF filter.
