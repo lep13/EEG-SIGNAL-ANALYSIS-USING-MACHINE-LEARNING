@@ -104,10 +104,10 @@ For this project we have only utilised the data given for EEG.
 Using Machine Learning on Jupyter notebook and Python Programming language for EEG analysis.
 
 3. Modules used:
-Matplotlib for plotting graphs
-NumPy for handling data
-Pandas for extracting and handling files
-MNE for extracting data sheet
+**Matplotlib** for plotting graphs,  
+**NumPy** for handling data,  
+**Pandas** for extracting and handling files,  
+**MNE** for extracting data sheet
 
 # WORKING:
 ![image](https://user-images.githubusercontent.com/126688687/229298658-4867c267-9679-4605-b7b2-b8235e5bc66b.png)
@@ -136,11 +136,11 @@ FIR Filter Analysis:
 Designing a one-pass, zero-phase, non-causal bandpass filter:
 
 Hamming window with passband ripple: 0.0194 and stopband
-attenuation: 53db.
-Lower passband edge: 0.10
-Lower Transition Bandwidth: 0.10
-Upper passband edge: 40.0Hz
-Upper Transition Bandwidth: 10.0Hz
+attenuation: 53dbl;  
+Lower passband edge: 0.10;  
+Lower Transition Bandwidth: 0.10;  
+Upper passband edge: 40.0Hz;  
+Upper Transition Bandwidth: 10.0Hz;  
 Filter Length: 19821 samples (33.001sec)
 
 A Patient Specific Direction or PSD is an instruction to administer a medicine to a list
