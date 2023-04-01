@@ -104,10 +104,10 @@ For this project we have only utilised the data given for EEG.
 Using Machine Learning on Jupyter notebook and Python Programming language for EEG analysis.
 
 3. Modules used:
-o Matplotlib for plotting graphs
-o NumPy for handling data
-o Pandas for extracting and handling files
-o MNE for extracting data sheet
+Matplotlib for plotting graphs
+NumPy for handling data
+Pandas for extracting and handling files
+MNE for extracting data sheet
 
 # WORKING:
 ![image](https://user-images.githubusercontent.com/126688687/229298658-4867c267-9679-4605-b7b2-b8235e5bc66b.png)
@@ -135,13 +135,13 @@ to zero.
 FIR Filter Analysis:
 Designing a one-pass, zero-phase, non-causal bandpass filter:
 
-o Hamming window with passband ripple: 0.0194 and stopband
+Hamming window with passband ripple: 0.0194 and stopband
 attenuation: 53db.
-o Lower passband edge: 0.10
-o Lower Transition Bandwidth: 0.10
-o Upper passband edge: 40.0Hz
-o Upper Transition Bandwidth: 10.0Hz
-o Filter Length: 19821 samples (33.001sec)
+Lower passband edge: 0.10
+Lower Transition Bandwidth: 0.10
+Upper passband edge: 40.0Hz
+Upper Transition Bandwidth: 10.0Hz
+Filter Length: 19821 samples (33.001sec)
 
 A Patient Specific Direction or PSD is an instruction to administer a medicine to a list
 of individually named patients on a list.
@@ -160,13 +160,13 @@ gamma (γ, 30-50Hz) bands, are engaged in speech and language processing.
 At any point of time, the power with respect to that point can be found.
 
 # TIME-FREQUENCY ANALYSIS:
-
-o When we perform time-frequency analysis, we are performing a moving
+When we perform time-frequency analysis, we are performing a moving
 window Fast Fourier Transform. The FFT returns Fourier coefficients for each
 combination of time and frequency - complex numbers with real and imaginary
 components that describe a position in a two-dimensional plane. These
 complex numbers represent both the magnitude and the phase of the signal.
-o Inter-trial coherence (ITC) is a measure that is computed from single trial EEG,
+
+Inter-trial coherence (ITC) is a measure that is computed from single trial EEG,
 which reflects the temporal and spectral synchronization within EEG. It is a
 measure of how consistent oscillatory phase is across an ensemble of trials.
 
