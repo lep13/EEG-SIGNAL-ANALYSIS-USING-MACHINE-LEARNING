@@ -94,21 +94,16 @@ second.
 ![image](https://user-images.githubusercontent.com/126688687/229298585-32cb784b-7ac5-4eac-970b-3961fefec537.png)
 ![image](https://user-images.githubusercontent.com/126688687/229298605-b0fdc110-99fe-4de7-933f-cea155fca214.png)
 
-# Software Specifications:
+# Software Stack
 1. EEG Dataset:
-MNE Module in Python specifically caters to EEG analysis. It is a software
-
-package that provides comprehensive analysis tools and workflows like time-
-frequency analysis, pre-processing etc It also includes data sets for sensors
-
-such as Magnetoencephalography (MEG), Electrooculogram (EOG), EEG etc.
+MNE Module in Python specifically caters to EEG analysis. It is a software package that provides comprehensive analysis tools and workflows like time-
+frequency analysis, pre-processing etc It also includes data sets for sensors such as Magnetoencephalography (MEG), Electrooculogram (EOG), EEG etc.
 For this project we have only utilised the data given for EEG.
 
 2. Applications used:
-Using Machine Learning on Jupyter notebook and Python Programming
-language for EEG analysis.
-3. Modules used:
+Using Machine Learning on Jupyter notebook and Python Programming language for EEG analysis.
 
+3. Modules used:
 o Matplotlib for plotting graphs
 o NumPy for handling data
 o Pandas for extracting and handling files
