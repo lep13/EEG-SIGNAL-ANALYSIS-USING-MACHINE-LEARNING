@@ -103,8 +103,7 @@ For this project we have only utilised the data given for EEG.
 2. Applications used:
 Using Machine Learning on Jupyter notebook and Python Programming language for EEG analysis.
 
-3. Modules used:
-  
+3. Modules used:   
 **Matplotlib** for plotting graphs,  
 **NumPy** for handling data,  
 **Pandas** for extracting and handling files,  
