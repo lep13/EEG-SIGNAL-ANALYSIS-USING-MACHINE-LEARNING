@@ -162,8 +162,7 @@ auditory cortex, especially the delta (δ, <4Hz), theta (θ, 4-8Hz), beta (β, 1
 gamma (γ, 30-50Hz) bands, are engaged in speech and language processing.
 
 # TIME-DOMAIN ANALYSIS:
-Graph shown below shows the time distribution of EEG over 59 channels. At any
-point of time, the power w.r.t that point can be found.
+At any point of time, the power with respect to that point can be found.
 
 # TIME-FREQUENCY ANALYSIS:
 
